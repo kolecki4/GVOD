@@ -37,3 +37,7 @@ If true, the final line list will be immediately readable by MOOG, else it will 
 
 ##### outfile, object
 The outfile variable is set to the desired destination of final line list, while object is an optional label which gets written to the final line list.
+
+
+
+After verifying that your settings are correct, run ```python EWC.py``` and let it do its thing!
