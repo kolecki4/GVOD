@@ -1,0 +1,380 @@
+Title: Abundances and Kinematics of Field Halo and Disk Stars I: Observational Data and Abundance Analysis
+NOTE: 
+Authors: Fulbright J.P.
+Table: Lines and Oscillator Strengths
+================================================================================
+Byte-by-byte Description of file
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  5  A5    ---     Name      Element name
+   7- 13  F7.2  0.1nm   Wave      Wavelength in Angstroms
+  15- 18  F4.2  eV      EP        Excitation potential
+  20- 25  F6.3  [-]     log(gf)   ? Log of the oscillator strength
+      27  A1    ---   f_log(gf)   Indicates hyperfine splitting
+  29- 53  A25   ---     Ref       Reference
+--------------------------------------------------------------------------------
+Fe I  4592.66 1.56 -2.409   Blackwell et al. 1980a    
+Fe I  4595.36 3.29 -1.758   Obrian et al. 1991        
+Fe I  4602.01 1.61 -3.114   Blackwell et al. 1980a    
+Fe I  4602.94 1.49 -2.208   Blackwell et al. 1980a    
+Fe I  4643.46 3.64 -1.147   Obrian et al. 1991        
+Fe I  4647.43 2.94 -1.351   Obrian et al. 1991        
+Fe I  4661.97 2.98 -2.502   Obrian et al. 1991        
+Fe I  4733.60 1.49 -2.947   Blackwell et al. 1980a    
+Fe I  4736.77 3.20 -0.752   Obrian et al. 1991        
+Fe I  4786.81 3.00 -1.606   Obrian et al. 1991        
+Fe I  4789.65 3.53 -0.957   Obrian et al. 1991        
+Fe I  4800.65 4.12 -1.028   Obrian et al. 1991        
+Fe I  4859.74 2.86 -0.764   Obrian et al. 1991        
+Fe I  4871.32 2.85 -0.362   Obrian et al. 1991        
+Fe I  4872.14 2.87 -0.567   Obrian et al. 1991        
+Fe I  4890.75 2.86 -0.394   Obrian et al. 1991        
+Fe I  4891.49 2.84 -0.111   Obrian et al. 1991        
+Fe I  4918.99 2.85 -0.342   Obrian et al. 1991        
+Fe I  4939.69 0.86 -3.300   Blackwell et al. 1979a    
+Fe I  4994.13 0.91 -3.040   Blackwell et al. 1979a    
+Fe I  5006.12 2.82 -0.615   Obrian et al. 1991        
+Fe I  5028.13 3.56 -1.122   Obrian et al. 1991        
+Fe I  5041.07 0.95 -3.086   Obrian et al. 1991        
+Fe I  5044.21 2.85 -2.017   Obrian et al. 1991        
+Fe I  5048.44 3.94 -1.029   Obrian et al. 1991        
+Fe I  5049.82 2.27 -1.355   Obrian et al. 1991        
+Fe I  5051.64 0.91 -2.755   Blackwell et al. 1979a    
+Fe I  5068.77 2.93 -1.041   Obrian et al. 1991        
+Fe I  5079.23 2.20 -2.027   Blackwell et al. 1982b    
+Fe I  5079.74 0.99 -3.180   Blackwell et al. 1979a    
+Fe I  5083.34 0.96 -2.918   Blackwell et al. 1979a    
+Fe I  5123.72 1.01 -3.028   Blackwell et al. 1979a    
+Fe I  5127.36 0.91 -3.267   Blackwell et al. 1979a    
+Fe I  5151.92 1.01 -3.282   Blackwell et al. 1979a    
+Fe I  5191.45 3.03 -0.551   Obrian et al. 1991        
+Fe I  5198.71 2.22 -2.095   Blackwell et al. 1982b    
+Fe I  5216.28 1.61 -2.110   Blackwell et al. 1980a    
+Fe I  5217.39 3.20 -1.162   Obrian et al. 1991        
+Fe I  5232.94 2.94 -0.057   Obrian et al. 1991        
+Fe I  5242.49 3.62 -0.967   Obrian et al. 1991        
+Fe I  5288.53 3.68 -1.508   Obrian et al. 1991        
+Fe I  5307.37 1.61 -2.947   Blackwell et al. 1980a    
+Fe I  5332.90 1.55 -2.776   Obrian et al. 1991        
+Fe I  5379.57 3.68 -1.514   Obrian et al. 1991    
+Fe I  5410.91 4.47 0.40     NIST
+Fe I  5501.46 0.95 -3.046   Obrian et al. 1991        
+Fe I  5506.78 0.99 -2.757   Blackwell et al. 1979a    
+Fe I  5662.52 4.16 -0.573   Obrian et al. 1991        
+Fe I  5701.55 2.56 -2.176   Blackwell et al. 1982c    
+Fe I  5753.12 4.24 -0.688   Obrian et al. 1991        
+Fe I  5956.70 0.86 -4.565   Blackwell et al. 1979a    
+Fe I  6065.49 2.61 -1.490   Blackwell et al. 1982c    
+Fe I  6082.72 2.22 -3.533   Blackwell et al. 1982b    
+Fe I  6151.62 2.18 -3.259   Blackwell et al. 1982b    
+Fe I  6173.34 2.22 -2.840   Blackwell et al. 1982b    
+Fe I  6219.29 2.20 -2.393   Blackwell et al. 1982b    
+Fe I  6230.73 2.56 -1.241   Blackwell et al. 1982b    
+Fe I  6246.32 3.59 -0.877   Obrian et al. 1991        
+Fe I  6252.56 2.40 -1.647   Blackwell et al. 1982b    
+Fe I  6265.14 2.18 -2.510   Blackwell et al. 1982b    
+Fe I  6297.80 2.22 -2.700   Blackwell et al. 1982b    
+Fe I  6322.69 2.59 -2.386   Blackwell et al. 1982b    
+Fe I  6344.15 2.43 -2.883   Blackwell et al. 1982b    
+Fe I  6421.36 2.28 -1.987   Blackwell et al. 1982b    
+Fe I  6430.85 2.18 -1.966   Blackwell et al. 1982b    
+Fe I  6481.88 2.28 -2.944   Blackwell et al. 1982b    
+Fe I  6494.99 2.40 -1.233   Blackwell et al. 1982b    
+Fe I  6498.95 0.96 -4.659   Blackwell et al. 1979a    
+Fe I  6593.88 2.43 -2.382   Blackwell et al. 1982b    
+Fe I  6609.12 2.56 -2.652   Blackwell et al. 1982c    
+Fe I  6750.15 2.42 -2.581   Blackwell et al. 1982b    
+Fe I  6945.21 2.42 -2.442   Blackwell et al. 1982b    
+Fe I  6978.86 2.48 -2.460   Blackwell et al. 1982b    
+Fe I  7723.20 2.28 -3.577   Blackwell et al. 1982b    
+Fe I  7912.87 0.86 -4.808   Blackwell et al. 1979a    
+Fe II 4555.89 2.82 -2.19    Blackwell et al. 1980b    
+Fe II 4576.34 2.84 -2.91    Blackwell et al. 1980b    
+Fe II 4582.83 2.84 -3.13    Blackwell et al. 1980b    
+Fe II 4620.52 2.83 -3.23    Blackwell et al. 1980b    
+Fe II 4635.31 5.96 -1.30    Moity 1983                
+Fe II 4670.17 2.58 -4.05    Blackwell et al. 1980b    
+Fe II 4923.92 2.89 -1.31    Moity 1983                
+Fe II 4993.35 2.81 -3.65    Blackwell et al. 1980b    
+Fe II 5018.44 2.89 -1.35    NIST
+Fe II 5100.66 2.81 -4.20    Blackwell et al. 1980b    
+Fe II 5132.67 2.81 -4.01    Blackwell et al. 1980b    
+Fe II 5169.03 2.89 -0.87    NIST
+Fe II 5197.58 3.23 -2.24    Moity 1983                
+Fe II 5234.63 3.22 -2.10    Moity 1983                
+Fe II 5264.79 3.23 -3.02    Blackwell et al. 1980b    
+Fe II 5325.56 3.22 -3.15    Blackwell et al. 1980b    
+Fe II 5414.08 3.22 -3.62    Blackwell et al. 1980b    
+Fe II 5425.46 3.20 -3.19    Blackwell et al. 1980b    
+Fe II 5991.38 3.15 -3.57    Blackwell et al. 1980b    
+Fe II 6084.10 3.20 -3.81    Blackwell et al. 1980b    
+Fe II 6149.25 3.89 -2.75    Blackwell et al. 1980b    
+Fe II 6247.56 3.89 -2.34    Blackwell et al. 1980b    
+Fe II 6416.93 3.89 -2.68    Blackwell et al. 1980b    
+Fe II 6432.68 2.89 -3.57    Blackwell et al. 1980b    
+Fe II 6456.39 3.90 -2.13    Blackwell et al. 1980b    
+Fe II 6516.08 2.89 -3.28    Blackwell et al. 1980b    
+Fe II 7479.70 3.89 -3.71    Blackwell et al. 1980b    
+Fe II 7711.73 3.90 -2.57    Blackwell et al. 1980b    
+Li I  4132.56 1.85 -1.03    NIST
+Li I  4602.82 1.85 -0.61    NIST
+Li I  4971.66 1.85 -1.59    NIST    
+Li I  6707.76 0.00 +0.00    Smith et al. 1998 
+C I   5052.15 7.68 -1.30    REDDY ET AL. 2003
+C I   5268.95 8.54 -1.80    NIST
+C I   5306.31 8.65 -1.90    NIST
+C I   5380.32 7.68 -1.61    REDDY ET AL. 2003
+C I   5668.94 8.54 -1.47    NIST
+C I   6587.62 8.54 -1.00    REDDY ET AL. 2003
+C I   7113.17 8.65 -0.77    REDDY ET AL. 2003
+C I   7115.17 8.64 -0.93    REDDY ET AL. 2003
+C I   7116.96 8.65 -0.91    REDDY ET AL. 2003
+C I   7860.89 8.85 -1.15    NIST
+N I   4099.94 10.68 -1.46    NIST
+N I   4109.95 10.69 -1.23    NIST
+N I   4935.12 10.69 -1.89    NIST
+N I   5752.50 11.84 -1.38    NIST
+N I   5999.43 11.60 -1.41    NIST
+N I   6008.47 11.60 -1.11    NIST
+N I   6420.64 11.76 -1.48    NIST
+N I   6423.07 11.76 -1.87    NIST
+N I   6440.94 11.76 -1.18    NIST
+N I   6481.71 11.75 -1.06    NIST
+N I   6482.70 11.76 -0.51    NIST
+N I   6483.75 11.75 -0.86    NIST
+N I   6484.81 11.76 -0.67    NIST
+N I   6491.22 11.75 -1.46    NIST
+N I   6499.52 11.76 -1.35    NIST
+N I   6506.30 11.76 -1.46    NIST
+N I   6622.54 11.76 -1.50    NIST
+N I   6636.94 11.75 -1.43    NIST
+N I   6644.96 11.76 -0.86    NIST
+N I   6646.50 11.75 -1.54    NIST
+N I   6653.46 11.76 -1.14    NIST
+N I   6656.51 11.75 -1.54    NIST
+N I   6722.61 11.84 -0.71    NIST
+N I   7423.64 10.33 -0.73    NIST
+N I   7442.30 10.33 -0.40    NIST
+N I   7468.27 10.34 -0.19   REDDY ET AL. 2003
+N I   8629.16 10.68 +0.07   REDDY ET AL. 2003
+O I   4368.26 9.52 -2.19    NIST
+O I   5330.74 10.74 -0.98   NIST
+O I   6156.78 10.74 -0.69   NIST
+O I   6158.19 10.74 -0.41   NIST
+O I   6300.31 0.00 -9.75    REDDY ET AL. 2003
+O I   6455.98 10.74 -0.92   NIST
+O I   7002.23 10.99 -0.74   NIST
+O I   7156.70 12.73 +0.29   NIST
+O I   7771.95 9.15 +0.37    REDDY ET AL. 2003
+O I   7774.18 9.15 +0.22    REDDY ET AL. 2003
+O I   7775.40 9.15 +0.00    REDDY ET AL. 2003
+S I   4034.06 6.86 -1.89    NIST
+S I   4152.60 6.86 -1.94    NIST    
+S I   4157.70 6.86 -1.69    NIST
+S I   5381.01 7.87 -1.32    NIST
+S I   5507.00 7.87 -1.14    NIST
+S I   5706.10 7.87 -0.93    NIST
+S I   6041.92 7.87 -1.39    NIST
+S I   6046.02 7.87 -0.51    REDDY ET AL. 2003
+S I   6052.67 7.87 -0.63    REDDY ET AL. 2003
+S I   6748.79 7.87 -0.64    NIST
+S I   6757.17 7.87 -0.31    REDDY ET AL. 2003
+S I   7923.84 8.42 -0.29    NIST
+Na I  4668.57 2.10 -1.41    Sneden et al. 1997        
+Na I  5682.65 2.10 -0.70    Sneden et al. 1997        
+Na I  5688.21 2.10 -0.37    Sneden et al. 1997                 
+Na I  6154.23 2.10 -1.56    Sneden et al. 1997        
+Na I  6160.75 2.10 -1.26    Sneden et al. 1997  
+Mg I  4351.91 4.35 -0.58    NIST      
+Mg I  4703.00 4.33 -0.52    Fuhrmann et al. 1995      
+Mg I  4730.03 4.33 -2.31    Fuhrmann et al. 1995      
+Mg I  5172.70 2.70 -0.39    Fuhrmann et al. 1995      
+Mg I  5183.60 2.72 -0.17    NIST
+Mg I  5528.42 4.33 -0.50    Fuhrmann et al. 1995      
+Mg I  5711.09 4.33 -1.67    Fuhrmann et al. 1995      
+Mg I  6318.71 5.11 -1.28    REDDY ET AL. 2003
+Mg I  7060.41 5.75 -1.35    NIST
+Mg I  7193.18 5.75 -1.19    NIST
+Mg I  7291.06 5.39 -2.82    NIST
+Mg I  7387.70 5.75 -1.10    Shetrone 1996             
+Mg I  7657.61 5.11 -1.28    REDDY ET AL. 2003
+Mg I  7691.57 5.75 -0.80    Shetrone 1996     
+Mg II 4384.64 10.00 -0.78   NIST
+Mg II 4390.57 10.00 -0.52   NIST
+Mg II 4427.99 10.00 -1.21   NIST
+Mg II 4433.99 10.00 -0.91   NIST
+Mg II 6346.74 11.57 0.03    NIST
+Mg II 7877.05 10.00 0.39    NIST
+Mg II 7896.37 10.00 0.64    NIST    
+Al I  6696.03 3.14 -1.57    Shetrone 1996             
+Al I  6698.67 3.14 -1.89    Shetrone 1996
+Al I  6906.28 4.02 -1.18    NIST
+Al I  7083.97 4.02 -1.16    NIST
+Al I  7361.57 4.02 -0.95    NIST
+Al I  7362.30 4.02 -0.79    NIST             
+Al I  7835.32 4.02 -0.71    Shetrone 1996             
+Al I  7836.13 4.02 -0.55    Shetrone 1996             
+Al I  8772.88 4.02 -0.38    Shetrone 1996             
+Al I  8773.91 4.02 -0.16    Shetrone 1996             
+Si I  5645.66 4.91 -2.14    Garz 1973                 
+Si I  5665.60 4.90 -2.04    Garz 1973                 
+Si I  5684.52 4.93 -1.65    Garz 1973                 
+Si I  5701.12 4.93 -2.05    Garz 1973                 
+Si I  5708.41 4.93 -1.47    Garz 1973                 
+Si I  5772.26 5.06 -1.75    Garz 1973                 
+Si I  5793.08 4.93 -2.06    Garz 1973                 
+Si I  5797.91 4.93 -2.05    Garz 1973
+Si I  5948.54 5.08 -1.23    NIST
+Si I  6125.03 5.61 -1.51    REDDY ET AL. 2003                 
+Si I  6142.49 5.62 -1.48    Sneden et al. 1997        
+Si I  6145.02 5.61 -1.37    Sneden et al. 1997        
+Si I  6243.82 5.61 -1.27    Sneden et al. 1997
+Si I  6244.48 5.61 -1.36    REDDY ET AL. 2003
+Si I  6721.84 5.86 -1.06    REDDY ET AL. 2003
+Si I  6976.51 5.95 -0.92    NIST
+Si I  7003.57 5.96 -0.75    NIST
+Si I  7005.88 5.98 -0.59    NIST
+Si I  7034.91 5.87 -0.88    Garz 1973       
+Si I  7680.27 5.86 -0.69    NIST
+Si I  7742.72 6.21 -0.28    NIST
+Si I  7800.00 6.18 -0.71    REDDY ET AL. 2003
+Si I  7918.38 5.95 -0.61    NIST
+Si I  7932.35 5.96 -0.47    NIST
+Si I  7944.00 5.98 -0.31    NIST
+Si I  7970.31 5.96 -1.47    NIST  
+Si II 4075.45 9.84 -1.40    NIST
+Si II 4076.78 9.84 -1.70    NIST
+Si II 4128.05 9.84 0.36     NIST
+Si II 4130.89 9.84 0.55     NIST
+Si II 5041.02 10.07 0.03    NIST
+Si II 5055.98 10.07 0.52    NIST
+Si II 5957.56 10.07 -0.23   NIST
+Si II 5978.93 10.07 0.08    NIST
+Si II 6347.11 8.12 0.15     NIST
+Si II 6371.37 8.12 -0.08    NIST
+S I  5381.01 7.87 -1.32    NIST
+S I  5507.00 7.87 -1.14    NIST
+S I  5706.10 7.87 -0.93    NIST
+S I  5961.21 8.05 -1.40    NIST
+S I  6041.92 7.87 -1.39    NIST
+S I  6046.04 7.87 -0.96    NIST
+S I  6052.66 7.87 -0.67    NIST
+S I  6173.61 8.05 -1.49    NIST
+S I  6175.82 8.05 -1.22    NIST
+S I  6408.12 7.87 -1.45    NIST
+S I  6415.48 7.87 -1.30    NIST
+S I  6536.34 8.05 -1.30    NIST
+S I  6538.60 8.05 -1.03    NIST
+S I  6743.54 7.87 -1.06    NIST
+S I  6748.79 7.87 -0.64    NIST
+S I  6757.15 7.87 -0.35    NIST
+S I  6994.62 8.05 -1.47    NIST
+S I  7161.44 8.42 -0.76    NIST
+S I  7443.30 8.42 -0.55    NIST
+S I  7679.56 7.87 -1.28    NIST
+S I  7686.10 7.87 -1.05    NIST
+S I  7696.70 7.87 -0.91    NIST
+S I  7923.84 8.42 -0.29    NIST
+S I  7923.84 8.42 -1.15    NIST
+S I  7927.94 8.42 -1.18    NIST
+Ca I  4512.27 2.52 -1.90    Smith and Raggett 1981    
+Ca I  4578.56 2.52 -0.70    Smith and Raggett 1981    
+Ca I  5260.39 2.52 -1.72    Smith and Raggett 1981    
+Ca I  5261.71 2.52 -0.58    Smith and Raggett 1981    
+Ca I  5581.97 2.52 -0.56    Smith and Raggett 1981    
+Ca I  5590.12 2.52 -0.57    Smith and Raggett 1981    
+Ca I  6161.30 2.52 -1.27    Smith and Raggett 1981    
+Ca I  6166.44 2.52 -1.20    Smith and Raggett 1981    
+Ca I  6169.04 2.52 -0.80    Smith and Raggett 1981    
+Ca I  6169.56 2.52 -0.48    Smith and Raggett 1981    
+Ca I  6455.60 2.52 -1.29    Smith and Raggett 1981    
+Ca I  6499.65 2.52 -0.82    Smith and Raggett 1981    
+Ti I  4512.73 0.84 -0.42    Blackwell et al. 1982a    
+Ti I  4518.02 0.83 -0.26    Blackwell et al. 1982a    
+Ti I  4548.76 0.83 -0.29    Blackwell et al. 1982a    
+Ti I  4555.49 0.85 -0.43    Blackwell et al. 1982a    
+Ti I  4623.10 1.74 +0.166   Blackwell et al. 1986     
+Ti I  4645.19 1.74 -0.501   Blackwell et al. 1986     
+Ti I  4656.47 0.00 -1.28    Blackwell et al. 1982a    
+Ti I  4840.87 0.90 -0.45    Blackwell et al. 1982a    
+Ti I  4913.62 1.87 +0.216   Blackwell et al. 1986     
+Ti I  4997.10 0.00 -2.06    Blackwell et al. 1982a    
+Ti I  5016.16 0.85 -0.51    Blackwell et al. 1982a    
+Ti I  5064.65 0.05 -0.93    Blackwell et al. 1982a    
+Ti I  5113.44 1.44 -0.727   Blackwell et al. 1986     
+Ti I  5145.47 1.46 -0.518   Blackwell et al. 1986     
+Ti I  5978.54 1.87 -0.440   Blackwell et al. 1986 
+Ti I  6258.71 1.46 -0.24    NIST
+Ti I  6261.10 1.43 -0.48    NIST
+Ti I  6303.76 1.44 -1.57    NIST
+Ti I  6312.24 1.46 -1.55    NIST
+Ti I  6336.10 1.44 -1.74    NIST
+Ti I  6508.38 3.31 -1.15    NIST
+Ti I  6511.67 3.29 -1.24    NIST
+Ti I  6512.53 3.32 -1.17    NIST
+Ti I  6536.42 3.34 -0.69    NIST
+Ti I  6554.22 1.44 -1.22    NIST
+Ti I  6556.06 1.46 -1.07    NIST
+Ti I  6599.11 0.90 -2.08    NIST
+Ti I  6666.53 1.46 -1.62    NIST
+Ti II 4636.32 1.16 -3.23    Bizzarri et al. 1993      
+Ti II 4493.52 1.08 -2.83    Bizzarri et al. 1993      
+Ti II 4409.52 1.23 -2.57    Bizzarri et al. 1993      
+Ti II 4657.20 1.24 -2.32    Bizzarri et al. 1993      
+Ti II 4444.56 1.08 -2.21    Bizzarri et al. 1993      
+Ti II 5418.77 1.58 -2.11    Bizzarri et al. 1993      
+Ti II 4719.52 1.24 -3.28    Bizzarri et al. 1993      
+Ti II 4708.66 1.24 -2.37    Bizzarri et al. 1993      
+Ti II 4583.41 1.16 -2.87    Bizzarri et al. 1993      
+Ti II 4798.53 1.08 -2.67    Bizzarri et al. 1993      
+V I   4389.99 0.28 +0.235   McWilliam 1995b           
+V I   4577.18 0.00 -1.05    Beveridge and Sneden 1994 
+V I   4875.49 0.04 -0.81    Beveridge and Sneden 1994
+V I   5727.06 1.08 -0.01    REDDY ET AL. 2003
+V I   6039.74 1.06 -0.65    REDDY ET AL. 2003 
+V I   6090.22 1.08 -0.06    Beveridge and Sneden 1994
+V I   6111.65 1.04 -0.71    REDDY ET AL. 2003 
+V I   6216.37 0.28 -1.07    Beveridge and Sneden 1994
+V I   6251.83 0.29 -1.34    REDDY ET AL. 2003 
+Cr I  5409.79 1.03 -0.715   Blackwell et al. 1984     
+Cr I  5348.32 1.00 -1.294   Blackwell et al. 1984     
+Cr I  5345.81 1.00 -0.975   Blackwell et al. 1984     
+Cr I  5300.75 0.98 -2.129   Blackwell et al. 1984     
+Cr I  5296.69 0.98 -1.394   Blackwell et al. 1984     
+Cr I  4651.29 0.98 -1.476   Blackwell et al. 1984     
+Cr I  4545.96 0.94 -1.379   Blackwell et al. 1984     
+Cr I  5329.17 2.91 -0.064   Blackwell et al. 1984     
+Cr I  4789.35 2.54 -0.366   Blackwell et al. 1984     
+Cr I  4511.90 3.09 -0.343   Blackwell et al. 1984
+Cr I  5783.87 3.32 -0.29    REDDY ET AL. 2003
+Cr I  5787.93 3.32 -0.08    REDDY ET AL. 2003
+Cr I  6330.10 0.94 -2.90    REDDY ET AL. 2003     
+Ni I  4604.99 3.48 -0.250   Wickliffe and Lawler 1997 
+Ni I  4686.21 3.60 -0.580   Wickliffe and Lawler 1997 
+Ni I  4953.21 3.74 -0.580   Wickliffe and Lawler 1997 
+Ni I  4998.22 3.61 -0.690   Wickliffe and Lawler 1997 
+Ni I  6176.81 4.09 -0.260   Wickliffe and Lawler 1997 
+Ni I  4904.41 3.54 -0.17    Fuhr et al. 1988          
+Ni I  4937.34 3.61 -0.39    Fuhr et al. 1988          
+Ni I  5081.11 3.85 +0.30    Fuhr et al. 1988          
+Ni I  5084.08 3.68 +0.03    Fuhr et al. 1988          
+Ni I  5115.39 3.83 -0.11    Fuhr et al. 1988          
+Ni I  5155.76 3.90 -0.09    Fuhr et al. 1988          
+Ni I  6175.37 4.09 -0.53    Fuhr et al. 1988          
+Ni I  6177.25 1.83 -3.50    Fuhr et al. 1988          
+Ni I  6223.99 4.10 -0.99    Fuhr et al. 1988          
+Y II  4398.01 0.13 -1.00    Sneden et al. 1996        
+Y II  4883.69 1.08 +0.07    Sneden et al. 1996        
+Y II  4900.11 1.03 -0.09    Sneden et al. 1996        
+Y II  5087.43 1.08 -0.17    Sneden et al. 1996        
+Y II  5200.42 0.99 -0.57    Sneden et al. 1996        
+Y II  5205.73 1.03 -0.34    Sneden et al. 1996        
+Zr II 4208.98 0.71 -0.46    Sneden et al. 1996        
+Zr II 4317.32 0.71 -1.38    Sneden et al. 1996        
+Ba II 4554.04 0.00        0 McWilliam 1998            
+Ba II 5853.68 0.60 -0.91    REDDY ET AL. 2003       
+Ba II 6141.73 0.67 -0.03    REDDY ET AL. 2003      
+Ba II 6496.91 0.60 -0.41    REDDY ET AL. 2003        
+Eu II 4129.72 0.00        0 McWilliam 1995b           
+Eu II 6645.13 1.37 +0.20    REDDY ET AL. 2003
