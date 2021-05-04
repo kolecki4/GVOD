@@ -109,27 +109,28 @@ for i in range(len(adjustedindices)):
                 OEW += (1 - (yesflx[j]/Obackground))*(yeswav[j+1] - yeswav[j]) 
                 
                 
-            plt.plot(yeswav, gaussian(yeswav,*popt2),ls='--', c='#4444FF',lw=3, label='Model')
+            #plt.plot(yeswav, gaussian(yeswav,*popt2),ls='--', c='#4444FF',lw=3, label='Model')
         except:
             print('Could not model with Gaussian.')
+            EW=0
             
-        if np.abs(OEW-EW) < .5*EW:
-            plt.plot(yeswav,yesflx, color ='#666666', zorder = 2)    
-            plt.vlines(wav[adjustedindices[i]],0,1.1, zorder = 1, color = '#7B8fB9')
-            plt.vlines(wav[adjustedindices[i]]-(EW/2),0,background, zorder = 1, color = '#041E42')
-            plt.vlines(wav[adjustedindices[i]]+(EW/2),0,background, zorder = 1, color = '#041E42')
-            if len(yeswav) > 0: plt.hlines(background,yeswav[0], yeswav[-1], color = '#041E42')
-            plt.xticks(fontsize = '8')
+        if 1:#np.abs(OEW-EW) < .5*EW:
+            #plt.plot(yeswav,yesflx, color ='#666666', zorder = 2)    
+            #plt.vlines(wav[adjustedindices[i]],0,1.1, zorder = 1, color = '#7B8fB9')
+            #plt.vlines(wav[adjustedindices[i]]-(EW/2),0,background, zorder = 1, color = '#041E42')
+            #plt.vlines(wav[adjustedindices[i]]+(EW/2),0,background, zorder = 1, color = '#041E42')
+            #if len(yeswav) > 0: plt.hlines(background,yeswav[0], yeswav[-1], color = '#041E42')
+            #plt.xticks(fontsize = '8')
             #plt.ylim(max([flx[adjustedindices[i]] - 0.5*(1-flx[adjustedindices[i]]),0]),1.025*maxflx)
             try:
                 plt.ylim(0,1.1*maxflx)
             except:
                 pass
             idk = np.abs(linelist['Wavelength'] - wav[adjustedindices[i]]).argmin()
-            plt.title(str(linelist['Element'][idk]) + ' ' + str(linelist['Ionization'][idk]) + ' at ' + str(linelist['Wavelength'][idk]) + ' \u212B (EW = ' +'{:.3f}'.format(1000*EW) + ' m\u212B)')
-            plt.xlabel('Wavelength (Angstroms)')
-            plt.ylabel('Normalized Flux')
-            plt.show()
+            #plt.title(str(linelist['Element'][idk]) + ' ' + str(linelist['Ionization'][idk]) + ' at ' + str(linelist['Wavelength'][idk]) + ' \u212B (EW = ' +'{:.3f}'.format(1000*EW) + ' m\u212B)')
+            #plt.xlabel('Wavelength (Angstroms)')
+            #plt.ylabel('Normalized Flux')
+            #plt.show()
         else:
             EW = 0
         
@@ -229,18 +230,8 @@ for i in range(len(adjustedindices)):
                 # ax.plot(yeswav,yesflx, color ='#666666', zorder = 2)
                 # hlp.show()
                 instring = ''
-                if not autoDiscard:
-                    print('Could not model with Voigt distribution. Enter new parameters')
-                    while instring != 'p' and len(instring) < 11:
-                        instring = input('Separated by spaces, Input the following.\n(x0, y0, a, sigma, gamma, background).\nOr enter "p" to skip this line: ')
-                    if instring == "p":
-                        VEW = -1
-                        #eqws = np.append(eqws,EW)
-                        break
-                    guesses = [float(i) for i in instring.split()]
-                else:
-                    VEW = -1
-                    counter=0
+                VEW = -1
+                counter=0
             
         counter = 1
         guesses = [maxflx - minflx,wav[adjustedindices][i],.2,maxflx]
@@ -281,18 +272,8 @@ for i in range(len(adjustedindices)):
                 ax2.set_ylabel('Flux')
                 #plt.show(block = False)
                 instring = ''
-                if not autoDiscard:
-                    print('Could not model with Gaussian distribution. Enter new parameters')
-                    while instring != 'p' and len(instring) < 7:
-                        instring = input('Separated by spaces, Input the following.\n(a, sigma, mu, background).\nOr enter "p" to skip this line: ')
-                    if instring == "p":
-                        GEW = -1
-                        #eqws = np.append(eqws,EW)
-                        break
-                    guesses = [float(i) for i in instring.split()]
-                else:
-                    GEW=-1
-                    counter = 0
+                GEW=-1
+                counter = 0
         
         
         if not lotsofblendedlines:
@@ -331,7 +312,7 @@ for i in range(len(adjustedindices)):
             print('\n' + linelist['Element'][idk] + ' ' + linelist['Ionization'][idk] + ' at ' + str(linelist['Wavelength'][idk]) +  '\u212B')
             print('EW = ' + '{:.3f}'.format(1000*np.average(EWs)))
             plt.close('all')
-        elif not autoDiscard:
+        elif not autoDiscard and (VEW != -1 and GEW != -1) and (VEW > mineqw/1000 or GEW > mineqw/1000 or OEW > mineqw/1000):
             instring = ''
             while instring != 'G' and instring != 'V' and instring != 'O' and instring != 'D':
                 
@@ -380,6 +361,7 @@ if MOOGformat:
     linelist = linelist[linelist['Wavelength'] >= min(wav)]
     linelist = linelist[1000*eqws>=mineqw]
     eqws = eqws[1000*eqws>=mineqw]
+    eqws = eqws[1000*eqws<=maxeqw]
     
     with open(outfile, 'w') as f:
         print('NLINES: %s, OBJECT: %s' % (str(len(eqws)), obj), file = f)
@@ -393,6 +375,7 @@ else:
     linelist = linelist[linelist['Wavelength'] >= min(wav)]
     linelist = linelist[1000*eqws>=mineqw]
     eqws = eqws[1000*eqws>=mineqw]
+    eqws = eqws[1000*eqws<=maxeqw]
     
     with open(outfile, 'w') as f:
         print(obj + ' WAV,ELEM,ION,EP,LOGGF,EQW', file = f)
