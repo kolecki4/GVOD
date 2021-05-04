@@ -1,0 +1,495 @@
+Title: Abundances and Kinematics of Field Halo and Disk Stars I: Observational Data and Abundance Analysis
+NOTE: 
+Authors: Fulbright J.P.
+Table: Lines and Oscillator Strengths
+================================================================================
+Byte-by-byte Description of file
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  5  A5    ---     Name      Element name
+   7- 13  F7.2  0.1nm   Wave      Wavelength in Angstroms
+  15- 18  F4.2  eV      EP        Excitation potential
+  20- 25  F6.3  [-]     log(gf)   ? Log of the oscillator strength
+      27  A1    ---   f_log(gf)   Indicates hyperfine splitting
+  29- 53  A25   ---     Ref       Reference
+--------------------------------------------------------------------------------
+Fe I  4005.24 1.56 -0.61    NIST
+Fe I  4009.71 2.22 -1.25    NIST
+Fe I  4018.27 3.27 -1.23    NIST
+Fe I  4049.33 2.59 -2.44    NIST
+Fe I  4055.04 2.56 -1.92    NIST
+Fe I  4066.58 2.99 -1.58    NIST
+Fe I  4073.76 3.27 -0.90    NIST
+Fe I  4076.63 3.21 -0.53    NIST
+Fe I  4079.84 2.86 -1.36    NIST
+Fe I  4095.97 2.59 -1.48    NIST
+Fe I  4109.80 2.85 -0.94    NIST
+Fe I  4121.80 2.83 -1.45    NIST
+Fe I  4137.00 3.41 -0.45    NIST
+Fe I  4143.41 3.05 -0.20    NIST
+Fe I  4147.67 1.48 -2.10    NIST
+Fe I  4156.67 2.95 -1.82    NIST
+Fe I  4177.59 0.91 -3.06    NIST
+Fe I  4187.79 2.43 -0.55    NIST
+Fe I  4195.33 3.33 -0.49    NIST
+Fe I  4198.25 3.37 -0.46    NIST
+Fe I  4203.94 3.63 -0.99    NIST
+Fe I  4215.42 2.99 -1.76    NIST
+Fe I  4219.41 2.99 -1.90    NIST
+Fe I  4224.17 3.37 -0.51    NIST
+Fe I  4239.85 2.69 -1.64    NIST
+Fe I  4250.12 2.47 -0.41    NIST
+Fe I  4266.96 2.73 -1.81    NIST
+Fe I  4271.76 1.48 -0.16    NIST
+Fe I  4288.15 2.76 -2.06    NIST
+Fe I  4299.63 3.02 -2.18    NIST
+Fe I  4325.76 1.61 0.01    NIST
+Fe I  4343.70 3.05 -1.80    NIST
+Fe I  4388.41 3.60 -0.68    NIST
+Fe I  4433.78 3.60 -1.27    NIST
+Fe I  4442.34 2.20 -1.25    NIST
+Fe I  4446.83 3.69 -1.32    NIST
+Fe I  4456.33 3.05 -2.17    NIST
+Fe I  4459.12 2.18 -1.28    NIST
+Fe I  4466.55 2.83 -0.60    NIST
+Fe I  4476.02 2.85 -0.82    NIST
+Fe I  4482.17 0.11 -3.50    NIST
+Fe I  4484.22 3.60 -0.86    NIST
+Fe I  4528.61 2.18 -0.82    NIST
+Fe I  4592.65 1.56 -2.45    NIST
+Fe I  4632.91 1.61 -2.91    NIST
+Fe I  4667.45 3.60 -0.75    NIST
+Fe I  4678.85 3.60 -0.83    NIST
+Fe I  4710.28 3.02 -1.61    NIST
+Fe I  4786.81 3.02 -1.61    NIST
+Fe I  4789.65 3.55 -0.96    NIST
+Fe I  4800.65 4.14 -1.03    NIST
+Fe I  4859.74 2.88 -0.76    NIST
+Fe I  4871.32 2.87 -0.36    NIST
+Fe I  4891.49 2.85 -0.11    NIST
+Fe I  4957.30 2.85 -0.41    NIST
+Fe I  4994.13 0.91 -3.08    NIST
+Fe I  5041.76 1.48 -2.20    NIST
+Fe I  5051.63 0.91 -2.79    NIST
+Fe I  5083.34 0.96 -2.96    NIST
+Fe I  5099.08 3.98 -1.26    NIST
+Fe I  5107.45 0.99 -3.09    NIST
+Fe I  5139.46 2.94 -0.51    NIST
+Fe I  5191.45 3.04 -0.55    NIST
+Fe I  5198.71 2.22 -2.13    NIST
+Fe I  5208.59 3.24 -0.90    NIST
+Fe I  5232.94 2.94 -0.06    NIST
+Fe I  5263.31 3.27 -0.88    NIST
+Fe I  5269.54 0.86 -1.32    NIST
+Fe I  5302.30 3.28 -0.72    NIST
+Fe I  5326.14 3.57 -2.07    NIST
+Fe I  5371.49 0.96 -1.65    NIST
+Fe I  5412.78 4.43 -1.72    NIST
+Fe I  5434.52 1.01 -2.12    NIST
+Fe I  5476.29 4.14 -0.94    NIST
+Fe I  5506.78 0.99 -2.80    NIST
+Fe I  5525.54 4.23 -1.08    NIST
+Fe I  5594.65 4.55 -0.66    NIST
+Fe I  5658.82 3.40 -0.84    NIST
+Fe I  5705.46 4.30 -1.35    NIST
+Fe I  5753.12 4.26 -0.69    NIST
+Fe I  5816.37 4.55 -0.60    NIST
+Fe I  5855.08 4.61 -1.48    NIST
+Fe I  5916.25 2.45 -2.99    NIST
+Fe I  6065.48 2.61 -1.53    NIST
+Fe I  6137.69 2.59 -1.40    NIST
+Fe I  6230.72 2.56 -1.28    NIST
+Fe I  6246.32 3.60 -0.88    NIST
+Fe I  6265.13 2.18 -2.55    NIST
+Fe I  6297.79 2.22 -2.74    NIST
+Fe I  6411.65 3.65 -0.72    NIST
+Fe I  6481.87 2.28 -2.98    NIST
+Fe I  6945.20 2.42 -2.48    NIST
+Fe I  6978.85 2.48 -2.50    NIST
+Fe II  4948.79 10.35 -0.03    NIST
+Fe II  4977.03 10.36 -0.04    NIST
+Fe II  4984.49 10.33 0.08    NIST
+Fe II  5022.79 10.29 -0.09    NIST
+Fe II  5100.73 10.38 0.72    NIST
+Fe II  5144.35 10.47 0.31    NIST
+Fe II  5157.29 10.46 -0.17    NIST
+Fe II  5203.63 10.39 -0.11    NIST
+Fe II  5216.86 10.48 0.67    NIST
+Fe II  5264.18 10.50 0.30    NIST
+Fe II  5270.03 10.50 -0.20    NIST
+Fe II  5306.18 10.52 0.04    NIST
+Fe II  5316.21 10.42 0.34    NIST
+Fe II  5362.97 10.50 -0.21    NIST
+Fe II  5395.85 10.60 0.28    NIST
+Fe II  5444.39 10.60 -0.17    NIST
+Fe II  5465.93 10.62 0.35    NIST
+Fe II  5492.08 10.62 0.09    NIST
+Fe II  5503.22 10.50 -0.12    NIST
+Fe II  5507.07 10.52 -0.06    NIST
+Fe II  5532.09 10.52 -0.10    NIST
+Fe II  5577.91 10.60 -0.11    NIST
+Fe II  5645.39 10.56 0.19    NIST
+Fe II  5783.62 10.71 0.37    NIST
+Fe II  5948.42 10.74 -0.20    NIST
+Fe II  5961.71 10.68 0.67    NIST
+Fe II  6414.26 11.05 -0.21    NIST
+Fe II  6495.21 11.09 0.07    NIST
+Fe II  6534.47 11.08 0.07    NIST
+Fe II  6543.80 11.00 0.14    NIST
+Fe II  6550.86 11.09 -0.12    NIST
+Fe II  6803.14 11.23 -0.28    NIST
+Fe II  6857.85 11.22 0.61    NIST
+Fe II  6922.03 11.15 0.95    NIST
+Fe II  6975.76 11.27 -0.25    NIST
+Fe II  7093.96 11.26 -0.31    NIST
+Fe II  7397.74 11.20 -0.31    NIST
+Fe II  7517.81 11.35 0.03    NIST
+Fe II  7586.64 11.02 -0.37    NIST
+Fe II  7613.90 11.35 -0.20    NIST
+Fe II  7621.21 9.76 -0.22    NIST
+Fe II  7678.62 11.39 -0.16    NIST
+Fe II  7699.27 11.39 -0.29    NIST
+Li I  4971.66 1.85 -1.59    NIST    
+Li I  6707.76 0.00 -0.00    NIST
+Li I  6707.91 0.00 -0.30    NIST
+C I  4371.38 7.68 -1.96    NIST
+C I  4734.26 7.95 -2.37    NIST
+C I  4735.17 7.95 -3.11    NIST
+C I  4738.22 7.95 -3.11    NIST
+C I  4738.47 7.95 -2.64    NIST
+C I  4742.56 7.95 -2.99    NIST
+C I  4762.31 7.48 -2.46    NIST
+C I  4762.52 7.48 -2.33    NIST
+C I  4766.67 7.48 -2.62    NIST
+C I  4770.02 7.48 -2.44    NIST
+C I  4771.73 7.49 -1.87    NIST
+C I  4775.89 7.49 -2.30    NIST
+C I  4812.92 7.48 -3.38    NIST
+C I  4817.37 7.48 -3.04    NIST
+C I  4826.79 7.49 -3.18    NIST
+C I  4932.03 7.68 -1.66    NIST
+C I  5012.03 7.95 -3.03    NIST
+C I  5012.28 7.95 -3.09    NIST
+C I  5017.09 7.95 -2.46    NIST
+C I  5017.79 7.95 -3.23    NIST
+C I  5018.07 7.95 -2.84    NIST
+C I  5023.84 7.95 -2.21    NIST
+C I  5024.93 7.95 -2.73    NIST
+C I  5039.06 7.95 -1.79    NIST
+C I  5040.13 7.95 -2.30    NIST
+C I  5041.49 7.95 -2.00    NIST
+C I  5041.77 7.95 -2.96    NIST
+C I  5041.80 7.95 -2.06    NIST
+C I  5052.15 7.68 -1.30    NIST
+C I  5053.53 8.54 -2.06    NIST
+C I  5268.95 8.54 -1.80    NIST
+C I  5380.33 7.68 -1.62    NIST
+C I  5668.94 8.54 -1.47    NIST
+C I  5793.11 7.95 -2.06    NIST
+C I  5794.47 7.95 -2.79    NIST
+C I  5800.23 7.95 -2.80    NIST
+C I  5800.60 7.95 -2.34    NIST
+C I  5805.20 7.95 -2.68    NIST
+C I  5969.33 7.95 -3.03    NIST
+C I  6587.62 8.54 -1.00    NIST
+C I  6655.53 8.54 -2.00    NIST
+C I  6662.74 8.85 -2.13    NIST
+C I  6671.85 8.85 -1.65    NIST
+C I  6674.12 8.85 -2.23    NIST
+C I  6683.97 8.85 -2.23    NIST
+C I  6688.80 8.85 -2.13    NIST
+C I  6711.32 8.54 -2.69    NIST
+C I  6828.14 8.54 -1.46    NIST
+C I  7056.90 8.64 -2.45    NIST
+C I  7087.82 8.65 -1.44    NIST
+C I  7100.11 8.64 -1.47    NIST
+C I  7108.93 8.64 -1.59    NIST
+C I  7111.46 8.64 -1.08    NIST
+C I  7113.17 8.65 -0.77    NIST
+C I  7115.17 8.64 -1.47    NIST
+C I  7115.18 8.64 -0.93    NIST
+C I  7116.98 8.65 -0.91    NIST
+C I  7119.66 8.64 -1.15    NIST
+C I  7122.20 8.64 -2.12    NIST
+C I  7132.12 8.65 -2.20    NIST
+C I  7139.16 8.65 -3.10    NIST
+C I  7364.73 9.00 -1.84    NIST
+C I  7473.32 8.77 -2.04    NIST
+C I  7476.17 8.77 -1.57    NIST
+C I  7483.44 8.77 -1.37    NIST
+C I  7662.42 8.77 -1.28    NIST
+C I  7685.19 8.77 -1.52    NIST
+C I  7692.48 8.77 -1.98    NIST
+C I  7832.64 8.85 -1.81    NIST
+C I  7837.11 8.85 -1.78    NIST
+C I  7840.25 8.85 -1.84    NIST
+C I  7848.25 8.85 -1.73    NIST
+C I  7852.86 8.85 -1.68    NIST
+C I  7860.89 8.85 -1.15    NIST
+N I  4099.94 10.68 -1.46    NIST
+N I  4109.95 10.69 -1.23    NIST
+N I  4914.94 10.68 -2.23    NIST
+N I  4935.12 10.69 -1.89    NIST
+N I  5281.20 10.92 -2.21    NIST
+N I  5752.50 11.84 -1.38    NIST
+N I  5999.43 11.60 -1.41    NIST
+N I  6008.47 11.60 -1.11    NIST
+N I  6411.65 11.75 -2.01    NIST
+N I  6420.64 11.76 -1.48    NIST
+N I  6423.07 11.76 -1.87    NIST
+N I  6440.94 11.76 -1.18    NIST
+N I  6481.71 11.75 -1.06    NIST
+N I  6482.70 11.76 -0.51    NIST
+N I  6483.75 11.75 -0.86    NIST
+N I  6484.81 11.76 -0.67    NIST
+N I  6491.22 11.75 -1.46    NIST
+N I  6499.52 11.76 -1.35    NIST
+N I  6506.30 11.76 -1.46    NIST
+N I  6722.61 11.84 -0.71    NIST
+N I  7406.12 12.00 -1.12    NIST
+N I  7406.24 12.01 -0.97    NIST
+N I  7423.64 10.33 -0.73    NIST
+N I  7442.30 10.33 -0.40    NIST
+N I  7468.31 10.34 -0.18    NIST
+O I   4368.26 9.52 -2.19    NIST
+O I   5330.74 10.74 -0.98   NIST
+O I   5435.18 10.74 -1.77    NIST
+O I   5435.77 10.74 -1.54    NIST
+O I  6155.97 10.74 -1.01    NIST
+O I   6156.78 10.74 -0.69   NIST
+O I   6158.19 10.74 -0.41   NIST
+O I   6455.98 10.74 -0.92   NIST
+O I  7001.92 10.99 -1.01    NIST
+O I   7002.23 10.99 -0.74   NIST
+O I   7156.70 12.73 +0.29   NIST
+O I   7771.94 9.15 0.37    NIST
+O I   7774.17 9.15 0.22    NIST
+O I   7775.39 9.15 0.00    NIST
+S I   4034.06 6.86 -1.89    NIST
+S I   4152.60 6.86 -1.94    NIST    
+S I   4157.70 6.86 -1.69    NIST
+S I   5381.01 7.87 -1.32    NIST
+S I   5507.00 7.87 -1.14    NIST
+S I   5706.10 7.87 -0.93    NIST
+S I   6041.92 7.87 -1.39    NIST
+S I   6046.02 7.87 -0.51    REDDY ET AL. 2003
+S I   6052.67 7.87 -0.63    REDDY ET AL. 2003
+S I   6748.79 7.87 -0.64    NIST
+S I   6757.17 7.87 -0.31    REDDY ET AL. 2003
+S I   7923.84 8.42 -0.29    NIST
+Na I  4668.57 2.10 -1.41    Sneden et al. 1997        
+Na I  5682.65 2.10 -0.70    Sneden et al. 1997        
+Na I  5688.21 2.10 -0.37    Sneden et al. 1997                 
+Na I  6154.23 2.10 -1.56    Sneden et al. 1997        
+Na I  6160.75 2.10 -1.26    Sneden et al. 1997  
+Mg I  4057.51 4.35 -0.90    NIST
+Mg I  4167.27 4.35 -0.74    NIST
+Mg I  4351.91 4.35 -0.58    NIST
+Mg I  4702.99 4.35 -0.44    NIST
+Mg I  4730.03 4.35 -2.35    NIST
+Mg I  5167.32 2.71 -0.87    NIST
+Mg I  5172.68 2.71 -0.39    NIST
+Mg I  5183.60 2.72 -0.17    NIST
+Mg I  5528.40 4.35 -0.50    NIST
+Mg I  5711.09 4.35 -1.72    NIST
+Mg I  6318.72 5.11 -2.10    NIST
+Mg I  6319.24 5.11 -2.32    NIST
+Mg I  6319.49 5.11 -2.80    NIST
+Mg I  7060.41 5.75 -1.35    NIST
+Mg I  7193.18 5.75 -1.19    NIST
+Mg I  7291.06 5.39 -2.82    NIST
+Mg I  7387.69 5.75 -1.00    NIST
+Mg I  7657.60 5.11 -1.27    NIST
+Mg I  7659.15 5.11 -1.49    NIST
+Mg I  7659.90 5.11 -1.97    NIST
+Mg I  7691.55 5.75 -0.78    NIST
+Mg I  7881.67 5.93 -1.53    NIST
+Mg I  7930.79 5.95 -1.50    NIST
+Mg I  7930.81 5.95 -1.34    NIST
+Mg I  7930.81 5.95 -1.67    NIST
+Mg I  7947.10 5.93 -3.08    NIST
+Mg I  7953.45 5.93 -2.38    NIST  
+Mg II 4384.64 10.00 -0.78   NIST
+Mg II 4390.57 10.00 -0.52   NIST
+Mg II 4427.99 10.00 -1.21   NIST
+Mg II 4433.99 10.00 -0.91   NIST
+Mg II 6346.74 11.57 0.03    NIST
+Mg II 7877.05 10.00 0.39    NIST
+Mg II 7896.37 10.00 0.64    NIST    
+Al I  5557.06 3.14 -2.37    NIST
+Al I  5557.94 3.14 -2.67    NIST
+Al I  6696.02 3.14 -1.57    NIST
+Al I  6698.67 3.14 -1.87    NIST
+Al I  6906.28 4.02 -1.18    NIST
+Al I  7083.97 4.02 -1.16    NIST
+Al I  7084.64 4.02 -1.00    NIST
+Al I  7361.57 4.02 -0.95    NIST
+Al I  7362.30 4.02 -0.79    NIST
+Al I  7606.16 4.09 -1.82    NIST
+Al I  7614.82 4.09 -1.57    NIST
+Al I  7615.34 4.09 -2.52    NIST
+Al I  7835.31 4.02 -0.69    NIST
+Al I  7836.13 4.02 -0.53    NIST
+Al I  7836.13 4.02 -1.83    NIST            
+Si I  5645.66 4.91 -2.14    Garz 1973                 
+Si I  5665.60 4.90 -2.04    Garz 1973                 
+Si I  5684.52 4.93 -1.65    Garz 1973                 
+Si I  5701.12 4.93 -2.05    Garz 1973                 
+Si I  5708.41 4.93 -1.47    Garz 1973                 
+Si I  5772.26 5.06 -1.75    Garz 1973                 
+Si I  5793.08 4.93 -2.06    Garz 1973                 
+Si I  5797.91 4.93 -2.05    Garz 1973
+Si I  5948.54 5.08 -1.23    NIST
+Si I  6125.03 5.61 -1.51    REDDY ET AL. 2003                 
+Si I  6142.49 5.62 -1.48    Sneden et al. 1997        
+Si I  6145.02 5.61 -1.37    Sneden et al. 1997        
+Si I  6243.82 5.61 -1.27    Sneden et al. 1997
+Si I  6244.48 5.61 -1.36    REDDY ET AL. 2003
+Si I  6721.84 5.86 -1.06    REDDY ET AL. 2003
+Si I  6976.51 5.95 -0.92    NIST
+Si I  7003.57 5.96 -0.75    NIST
+Si I  7005.88 5.98 -0.59    NIST
+Si I  7034.91 5.87 -0.88    Garz 1973       
+Si I  7680.27 5.86 -0.69    NIST
+Si I  7742.72 6.21 -0.28    NIST
+Si I  7800.00 6.18 -0.71    REDDY ET AL. 2003
+Si I  7918.38 5.95 -0.61    NIST
+Si I  7932.35 5.96 -0.47    NIST
+Si I  7944.00 5.98 -0.31    NIST
+Si I  7970.31 5.96 -1.47    NIST  
+Si II 4075.45 9.84 -1.40    NIST
+Si II 4076.78 9.84 -1.70    NIST
+Si II 4128.05 9.84 0.36     NIST
+Si II 4130.89 9.84 0.55     NIST
+Si II 5041.02 10.07 0.03    NIST
+Si II 5055.98 10.07 0.52    NIST
+Si II 5957.56 10.07 -0.23   NIST
+Si II 5978.93 10.07 0.08    NIST
+Si II 6347.11 8.12 0.15     NIST
+Si II 6371.37 8.12 -0.08    NIST
+S I  5381.01 7.87 -1.32    NIST
+S I  5507.00 7.87 -1.14    NIST
+S I  5706.10 7.87 -0.93    NIST
+S I  5961.21 8.05 -1.40    NIST
+S I  6041.92 7.87 -1.39    NIST
+S I  6046.04 7.87 -0.96    NIST
+S I  6052.66 7.87 -0.67    NIST
+S I  6173.61 8.05 -1.49    NIST
+S I  6175.82 8.05 -1.22    NIST
+S I  6408.12 7.87 -1.45    NIST
+S I  6415.48 7.87 -1.30    NIST
+S I  6536.34 8.05 -1.30    NIST
+S I  6538.60 8.05 -1.03    NIST
+S I  6743.54 7.87 -1.06    NIST
+S I  6748.79 7.87 -0.64    NIST
+S I  6757.15 7.87 -0.35    NIST
+S I  6994.62 8.05 -1.47    NIST
+S I  7161.44 8.42 -0.76    NIST
+S I  7443.30 8.42 -0.55    NIST
+S I  7679.56 7.87 -1.28    NIST
+S I  7686.10 7.87 -1.05    NIST
+S I  7696.70 7.87 -0.91    NIST
+S I  7923.84 8.42 -0.29    NIST
+S I  7923.84 8.42 -1.15    NIST
+S I  7927.94 8.42 -1.18    NIST
+Ca I  4512.27 2.52 -1.90    Smith and Raggett 1981    
+Ca I  4578.56 2.52 -0.70    Smith and Raggett 1981    
+Ca I  5260.39 2.52 -1.72    Smith and Raggett 1981    
+Ca I  5261.71 2.52 -0.58    Smith and Raggett 1981    
+Ca I  5581.97 2.52 -0.56    Smith and Raggett 1981    
+Ca I  5590.12 2.52 -0.57    Smith and Raggett 1981    
+Ca I  6161.30 2.52 -1.27    Smith and Raggett 1981    
+Ca I  6166.44 2.52 -1.20    Smith and Raggett 1981    
+Ca I  6169.04 2.52 -0.80    Smith and Raggett 1981    
+Ca I  6169.56 2.52 -0.48    Smith and Raggett 1981    
+Ca I  6455.60 2.52 -1.29    Smith and Raggett 1981    
+Ca I  6499.65 2.52 -0.82    Smith and Raggett 1981    
+Ti I  4512.73 0.84 -0.42    Blackwell et al. 1982a    
+Ti I  4518.02 0.83 -0.26    Blackwell et al. 1982a    
+Ti I  4548.76 0.83 -0.29    Blackwell et al. 1982a    
+Ti I  4555.49 0.85 -0.43    Blackwell et al. 1982a    
+Ti I  4623.10 1.74 +0.166   Blackwell et al. 1986     
+Ti I  4645.19 1.74 -0.501   Blackwell et al. 1986     
+Ti I  4656.47 0.00 -1.28    Blackwell et al. 1982a    
+Ti I  4840.87 0.90 -0.45    Blackwell et al. 1982a    
+Ti I  4913.62 1.87 +0.216   Blackwell et al. 1986     
+Ti I  4997.10 0.00 -2.06    Blackwell et al. 1982a    
+Ti I  5016.16 0.85 -0.51    Blackwell et al. 1982a    
+Ti I  5064.65 0.05 -0.93    Blackwell et al. 1982a    
+Ti I  5113.44 1.44 -0.727   Blackwell et al. 1986     
+Ti I  5145.47 1.46 -0.518   Blackwell et al. 1986     
+Ti I  5978.54 1.87 -0.440   Blackwell et al. 1986 
+Ti I  6258.71 1.46 -0.24    NIST
+Ti I  6261.10 1.43 -0.48    NIST
+Ti I  6303.76 1.44 -1.57    NIST
+Ti I  6312.24 1.46 -1.55    NIST
+Ti I  6336.10 1.44 -1.74    NIST
+Ti I  6508.38 3.31 -1.15    NIST
+Ti I  6511.67 3.29 -1.24    NIST
+Ti I  6512.53 3.32 -1.17    NIST
+Ti I  6536.42 3.34 -0.69    NIST
+Ti I  6554.22 1.44 -1.22    NIST
+Ti I  6556.06 1.46 -1.07    NIST
+Ti I  6599.11 0.90 -2.08    NIST
+Ti I  6666.53 1.46 -1.62    NIST
+Ti II 4636.32 1.16 -3.23    Bizzarri et al. 1993      
+Ti II 4493.52 1.08 -2.83    Bizzarri et al. 1993      
+Ti II 4409.52 1.23 -2.57    Bizzarri et al. 1993      
+Ti II 4657.20 1.24 -2.32    Bizzarri et al. 1993      
+Ti II 4444.56 1.08 -2.21    Bizzarri et al. 1993      
+Ti II 5418.77 1.58 -2.11    Bizzarri et al. 1993      
+Ti II 4719.52 1.24 -3.28    Bizzarri et al. 1993      
+Ti II 4708.66 1.24 -2.37    Bizzarri et al. 1993      
+Ti II 4583.41 1.16 -2.87    Bizzarri et al. 1993      
+Ti II 4798.53 1.08 -2.67    Bizzarri et al. 1993      
+V I   4389.99 0.28 +0.235   McWilliam 1995b           
+V I   4577.18 0.00 -1.05    Beveridge and Sneden 1994 
+V I   4875.49 0.04 -0.81    Beveridge and Sneden 1994
+V I   5727.06 1.08 -0.01    REDDY ET AL. 2003
+V I   6039.74 1.06 -0.65    REDDY ET AL. 2003 
+V I   6090.22 1.08 -0.06    Beveridge and Sneden 1994
+V I   6111.65 1.04 -0.71    REDDY ET AL. 2003 
+V I   6216.37 0.28 -1.07    Beveridge and Sneden 1994
+V I   6251.83 0.29 -1.34    REDDY ET AL. 2003 
+Cr I  5409.79 1.03 -0.715   Blackwell et al. 1984     
+Cr I  5348.32 1.00 -1.294   Blackwell et al. 1984     
+Cr I  5345.81 1.00 -0.975   Blackwell et al. 1984     
+Cr I  5300.75 0.98 -2.129   Blackwell et al. 1984     
+Cr I  5296.69 0.98 -1.394   Blackwell et al. 1984     
+Cr I  4651.29 0.98 -1.476   Blackwell et al. 1984     
+Cr I  4545.96 0.94 -1.379   Blackwell et al. 1984     
+Cr I  5329.17 2.91 -0.064   Blackwell et al. 1984     
+Cr I  4789.35 2.54 -0.366   Blackwell et al. 1984     
+Cr I  4511.90 3.09 -0.343   Blackwell et al. 1984
+Cr I  5783.87 3.32 -0.29    REDDY ET AL. 2003
+Cr I  5787.93 3.32 -0.08    REDDY ET AL. 2003
+Cr I  6330.10 0.94 -2.90    REDDY ET AL. 2003     
+Ni I  4604.99 3.48 -0.250   Wickliffe and Lawler 1997 
+Ni I  4686.21 3.60 -0.580   Wickliffe and Lawler 1997 
+Ni I  4953.21 3.74 -0.580   Wickliffe and Lawler 1997 
+Ni I  4998.22 3.61 -0.690   Wickliffe and Lawler 1997 
+Ni I  6176.81 4.09 -0.260   Wickliffe and Lawler 1997 
+Ni I  4904.41 3.54 -0.17    Fuhr et al. 1988          
+Ni I  4937.34 3.61 -0.39    Fuhr et al. 1988          
+Ni I  5081.11 3.85 +0.30    Fuhr et al. 1988          
+Ni I  5084.08 3.68 +0.03    Fuhr et al. 1988          
+Ni I  5115.39 3.83 -0.11    Fuhr et al. 1988          
+Ni I  5155.76 3.90 -0.09    Fuhr et al. 1988          
+Ni I  6175.37 4.09 -0.53    Fuhr et al. 1988          
+Ni I  6177.25 1.83 -3.50    Fuhr et al. 1988          
+Ni I  6223.99 4.10 -0.99    Fuhr et al. 1988          
+Y II  4398.01 0.13 -1.00    Sneden et al. 1996        
+Y II  4883.69 1.08 +0.07    Sneden et al. 1996        
+Y II  4900.11 1.03 -0.09    Sneden et al. 1996        
+Y II  5087.43 1.08 -0.17    Sneden et al. 1996        
+Y II  5200.42 0.99 -0.57    Sneden et al. 1996        
+Y II  5205.73 1.03 -0.34    Sneden et al. 1996        
+Zr II 4208.98 0.71 -0.46    Sneden et al. 1996        
+Zr II 4317.32 0.71 -1.38    Sneden et al. 1996        
+Ba II 4554.04 0.00        0 McWilliam 1998            
+Ba II 5853.68 0.60 -0.91    REDDY ET AL. 2003       
+Ba II 6141.73 0.67 -0.03    REDDY ET AL. 2003      
+Ba II 6496.91 0.60 -0.41    REDDY ET AL. 2003        
+Eu II 4129.72 0.00        0 McWilliam 1995b           
+Eu II 6645.13 1.37 +0.20    REDDY ET AL. 2003
