@@ -28,7 +28,7 @@ Valid arguments are:
 - 'obs': Use the observed data
 - 'gau': Fit a Gaussian profile to each line
 - 'voi': Fit a Voigt profile to each line
-- 'ask': Ask for one of the above for lines where the above differ by more than 20%
+- 'ask': Ask the user to choose from the above, among other settings
 
 ##### autoDiscard
 Only used while method == 'ask', if set to true, rather than ask for user input, the program will simply discard measurements where the above differ by more than 20%
