@@ -47,3 +47,6 @@ If true, the final line list will be immediately readable by MOOG, else it will 
 
 
 After verifying that your settings are correct, run ```python GVOD.py``` and follow along with the prompts!
+
+<img src="GVODplots.png">
+<img src="GVODcli.png>
