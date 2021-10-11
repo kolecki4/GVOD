@@ -1,5 +1,5 @@
 # EWC
-Planning on running abfind on MOOG? Well you're going to need to measure equivalent widths first!
+Planning on running abfind on MOOG? You're going to need to measure equivalent widths first!
 
 This is a program capable of measuring these absorption lines by a number of different ways: just using the observed spectrum, fitting a Gaussian model, or fitting a Voigt model. Or you can make it do all three and decide for yourself which fits best.
 
