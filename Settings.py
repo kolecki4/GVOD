@@ -7,7 +7,7 @@ import astropy.io.fits as fits
 #=============================================================================
 
 # OPEN THE 1D SPECTRUM FILE HERE (MAKE SURE YOU IMPORT ANY AND ALL LIBRARIES NECESSARY)
-filename = "1D_Spec_HR7672.txt"
+filename = "test_spectrum.txt"
 #fitsfile = fits.open(filename)
 wav = np.genfromtxt(filename, usecols=0)
 flx = np.genfromtxt(filename, usecols=1)
