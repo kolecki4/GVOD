@@ -1,9 +1,9 @@
-# EWC
+# GVOD
 Planning on running abfind on MOOG? You're going to need to measure equivalent widths first!
 
 This is a program capable of measuring these absorption lines by a number of different ways: just using the observed spectrum, fitting a Gaussian model, or fitting a Voigt model. Or you can make it do all three and decide for yourself which fits best.
 
-### Using the EWC
+### Using GVOD
 Firstly, you'll need to open Settings.py and modify it accordingly. In order, the parameters are as follows:
 
 ##### filename
@@ -46,4 +46,4 @@ The minimum width which lines must reach to be added to the final list
 If true, the final line list will be immediately readable by MOOG, else it will be output as a csv
 
 
-After verifying that your settings are correct, run ```python EWC.py``` and let it do its thing!
+After verifying that your settings are correct, run ```python GVOD.py``` and follow along with the prompts!
